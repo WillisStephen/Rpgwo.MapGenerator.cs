@@ -9,7 +9,7 @@ A full service world and mining map generator for V2 RPGWO servers.
 ### Planned Updates
 - [ ] Generate Surface Maps with certain generating options open for editing.
 - [ ] Saving full .maps for both Mining and Surface maps.
-- [ ] *Possibly* Update the UI to get away from the command line style.
+- [ ] Update the UI to get away from the command line style. *(e.g. previewing)*
 
 ##### *More to come..*
 
