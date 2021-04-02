@@ -1,4 +1,4 @@
-# Rpgwo.MapGenerator
+# Rpgwo.MapGenerator.cs
 A full service world and mining map generator for V2 RPGWO servers.
 
 ## Main Todo
