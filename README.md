@@ -2,7 +2,7 @@
 A full service world and mining map generator for V2 RPGWO servers.
 
 ## Main Todo
-- [ ] Initial Commit
+- [x] Initial Commit
 - [ ] Clean Up Initial Code
 - [ ] Ensure the mining map editing is working.
 
