@@ -1,0 +1,7 @@
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.csprojAssemblyReference.cache
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.exe.config
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.exe
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.pdb
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.exe
+C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.pdb
