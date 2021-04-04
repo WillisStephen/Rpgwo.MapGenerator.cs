@@ -12,7 +12,7 @@ namespace MiningMapGenerator
         public static List<string> worldMapFiles = new List<string>();
         public static List<string> newbMapFiles = new List<string>();
         public static byte[] Header = new byte[30];
-        public static MiningData[] mapData = new MiningData[40000];
+        public static OreIndex[] mapData = new OreIndex[40000];
         public static byte[] Footer = new byte[2132];
         public static string dir;
         public static string mapDir;
@@ -96,7 +96,7 @@ namespace MiningMapGenerator
             {
                 writer.Write(Header);
 
-                foreach (MiningData m in mapData)
+                foreach (OreIndex m in mapData)
                 {
                     writer.Write(m.index);
                     writer.Write(m.random);

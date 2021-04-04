@@ -57,11 +57,6 @@ namespace MiningMapGenerator
         public int maxVein;
     }
 
-    public struct MiningData
-    {
-        public byte index;
-        public byte random;
-    }
 
     public class Vector2
     {
