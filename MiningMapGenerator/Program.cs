@@ -13,10 +13,40 @@ namespace MiningMapGenerator
 
         static void Main(string[] args)
         {
-            Console.Write(Data.Title);
-            Console.Write(Data.Info);
-            Console.WriteLine("");
+            Console.Title = Data.Title;
 
+            Console.Write(Data.titleAscii);
+            Console.Write(Data.titleAscii2 + "\r\n");
+            Console.WriteLine();
+
+            Console.WriteLine(Data.Selection0);
+            Console.WriteLine(Data.Selection1);
+            Console.WriteLine(Data.Selection2);
+            Console.WriteLine(Data.Selection3);
+            Console.WriteLine(Data.Selection4);
+
+            ConsoleKeyInfo keyEntered;
+            int selection = 0;
+            do
+            {
+                keyEntered = Console.ReadKey();
+
+                if(int.TryParse(keyEntered.KeyChar.ToString(), out selection))
+                {
+                    if (selection > 0 && selection <= 5)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("\r\n Please enter a valid number between 1 and 5");
+                        continue;
+                    }
+                }
+            }
+            while (selection < 0 || selection > 5);
+
+            Console.ReadKey();
             IniReader.CheckConfigs();
             InitializeMap();
             CreateMiningMap();

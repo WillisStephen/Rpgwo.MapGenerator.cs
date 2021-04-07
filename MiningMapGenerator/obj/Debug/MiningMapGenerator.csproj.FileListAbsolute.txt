@@ -5,3 +5,10 @@ C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\bin\Debug\Mining
 C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.pdb
 C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.exe
 C:\Users\Zod\source\repos\MiningMapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.pdb
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.exe.config
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.exe
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\bin\Debug\MiningMapGenerator.pdb
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.csprojAssemblyReference.cache
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.csproj.CoreCompileInputs.cache
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.exe
+P:\GitHub Projects\Rpgwo\MapGenerator\MiningMapGenerator\obj\Debug\MiningMapGenerator.pdb

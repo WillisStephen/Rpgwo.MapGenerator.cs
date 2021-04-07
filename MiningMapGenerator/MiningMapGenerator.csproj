@@ -48,6 +48,10 @@
     <Compile Include="MapReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MiningMap.cs" />
+    <Compile Include="FloatingMap.cs" />
+    <Compile Include="MapData.cs" />
+    <Compile Include="SurfaceMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

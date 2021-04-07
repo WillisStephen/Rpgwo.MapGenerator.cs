@@ -8,18 +8,29 @@ namespace MiningMapGenerator
 {
     public class Data
     {
-        public static string Title = @"      Mining Map Generator by Zodiak
- ██▀███  ▓█████ ▄▄▄       ██▓     ███▄ ▄███▓
-▓██ ▒ ██▒▓█   ▀▒████▄    ▓██▒    ▓██▒▀█▀ ██▒
-▓██ ░▄█ ▒▒███  ▒██  ▀█▄  ▒██░    ▓██    ▓██░
-▒██▀▀█▄  ▒▓█  ▄░██▄▄▄▄██ ▒██░    ▒██    ▒██ 
-░██▓ ▒██▒░▒████▒▓█   ▓██▒░██████▒▒██▒   ░██▒
-░ ▒▓ ░▒▓░░░ ▒░ ░▒▒   ▓▒█░░ ▒░▓  ░░ ▒░   ░  ░
-  ░▒ ░ ▒░ ░ ░  ░ ▒   ▒▒ ░░ ░ ▒  ░░  ░      ░
-  ░░   ░    ░    ░   ▒     ░ ░   ░      ░   
-   ░        ░  ░     ░  ░    ░  ░       ░
-";
-        public static string Info = "For use to randomly generate mines at the start of a new season.";
+        public static string Title = "RPGWO Map Generator";
+
+        public static string titleAscii = @"
+ ██████╗ ██████╗  ██████╗ ██╗    ██╗ ██████╗ 
+ ██╔══██╗██╔══██╗██╔════╝ ██║    ██║██╔═══██╗
+ ██████╔╝██████╔╝██║  ███╗██║ █╗ ██║██║   ██║                     Created by Zodiak
+ ██╔══██╗██╔═══╝ ██║   ██║██║███╗██║██║   ██║ 
+ ██║  ██║██║     ╚██████╔╝╚███╔███╔╝╚██████╔╝
+ ╚═╝  ╚═╝╚═╝      ╚═════╝  ╚══╝╚══╝  ╚═════╝ ";
+
+        public static string titleAscii2 = @"
+ ███╗   ███╗ █████╗ ██████╗      ██████╗ ███████╗███╗   ██╗███████╗██████╗  █████╗ ████████╗ ██████╗ ██████╗ 
+ ████╗ ████║██╔══██╗██╔══██╗    ██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗
+ ██╔████╔██║███████║██████╔╝    ██║  ███╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝███████║   ██║   ██║   ██║██████╔╝
+ ██║╚██╔╝██║██╔══██║██╔═══╝     ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██╔══██║   ██║   ██║   ██║██╔══██╗
+ ██║ ╚═╝ ██║██║  ██║██║         ╚██████╔╝███████╗██║ ╚████║███████╗██║  ██║██║  ██║   ██║   ╚██████╔╝██║  ██║
+ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝          ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝";
+
+        public static string Selection0 = " 1) Generate Full World";
+        public static string Selection1 = " 2) Generate Surface Maps";
+        public static string Selection2 = " 3) Generate Mining Maps";
+        public static string Selection3 = " 4) Generate a Floating Map";
+        public static string Selection4 = " 5) Edit Mining Map Data";
 
         public static string configFile = @"OreConfig.ini";
         public static string worldFile = @"World.ini";
